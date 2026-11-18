@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFF8EC">
+  <meta name="description" content="蛙哈哈奶蛙 WaHaHa MilkFrog，一个先笑为敬的反应梗。测试网原型，尚未发行、未募资、不可购买。">
+  <title>蛙哈哈奶蛙 WaHaHa MilkFrog · 先笑为敬</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#hero">跳到正文</a>
+  <header class="site-header" id="top">
+    <div class="site-header-inner shell">
+      <a class="wordmark link" href="#hero">蛙哈哈 <span lang="en">WAHA</span></a>
+      <nav class="site-nav" aria-label="站内导航">
+        <a class="link" href="#meme">什么梗</a>
+        <a class="link" href="#milkfrog">认识奶蛙</a>
+        <a class="link" href="#wall">梗图墙</a>
+        <a class="link" href="#tokenomics" lang="en">Tokenomics</a>
+        <a class="link" href="#verify">链上核验</a>
+        <a class="link" href="#roadmap">路线图</a>
+        <a class="link" href="#faq" lang="en">FAQ</a>
+        <a class="link" href="#risk">风险</a>
+        <a class="link nav-whitepaper" href="whitepaper.html">白皮书 <span aria-hidden="true">↗</span></a>
+      </nav>
+      <span class="badge badge-testnet" lang="en">TESTNET</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" aria-labelledby="hero-title" tabindex="-1">
+      <div class="hero-inner shell">
+        <div class="hero-outline" aria-hidden="true">WAHAHA</div>
+        <div class="hero-copy">
+          <p class="hero-status"><span class="badge badge-testnet" lang="en">TESTNET PROTOTYPE</span> <span aria-hidden="true">·</span> 尚未发行</p>
+          <h1 class="display-title" id="hero-title">蛙哈哈，<br><span>先笑为敬</span></h1>
+          <p class="hero-english" lang="en">Laugh First.</p>
+          <p class="hero-description">蛙叫「蛙」加上笑声「哈哈」。不管发生什么，奶蛙先捧腹大笑一声，再说别的。</p>
+          <div class="hero-actions">
+            <button class="button button-unlaunched" type="button" disabled>尚未发行 <span lang="en">NOT LAUNCHED</span></button>
+            <button class="button button-laugh" type="button" id="laughBtn">蛙哈哈一下</button>
+          </div>
+          <p class="laugh-counter" role="status">已笑 <span id="laughCount">0</span> 次</p>
+        </div>
+        <figure class="hero-figure">
+          <div class="hero-art">
+            <img class="hero-image" id="heroImage" src="assets/hero-face.webp" alt="奶蛙面部特写：眯起眼睛，张大嘴狂笑" width="1254" height="1254" fetchpriority="high">
+          </div>
+          <figcaption>奶蛙 <span lang="en">WaHaHa MilkFrog</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section shell" id="meme" aria-labelledby="meme-title">
+      <div class="section-header reveal">
+        <div class="section-heading">
+          <span class="section-number" aria-hidden="true">01</span>
+          <h2 id="meme-title">这是什么梗 <span class="section-kicker" lang="en">The Meme</span></h2>
+        </div>
+        <p class="section-intro">「蛙哈哈」是个反应梗。碰上倒霉、离谱、尴尬或无语的瞬间，配一张奶蛙大笑图，再来一句「蛙哈哈」，梗就成立了。</p>
+      </div>
+      <div class="card-grid reveal">
+        <article class="grid-card meme-card">
+          <h3>打工蛙</h3>
+          <p>敲了几下黄色电脑，活还没干完，先捧腹笑一声。</p>
+        </article>
+        <article class="grid-card meme-card">
+          <h3>倒霉蛙</h3>
+          <p>踩坑、淋雨、排队排到店关门。先笑为敬，蛙哈哈。</p>
+        </article>
+        <article class="grid-card meme-card">
+          <h3>看客蛙</h3>
+          <p>刷到离谱新闻，围观看热闹。不站队、不喊单，先笑一声。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="milkfrog" aria-labelledby="milkfrog-title">
+      <div class="section-header reveal">
+        <div class="section-heading">
+          <span class="section-number" aria-hidden="true">02</span>
+          <h2 id="milkfrog-title">认识奶蛙 <span class="section-kicker" lang="en">Meet MilkFrog</span></h2>
+        </div>
+        <p class="section-intro">WaHaHa MilkFrog 是蛙哈哈的原创吉祥物。</p>
+      </div>
+      <div class="mascot-layout reveal">
+        <figure class="mascot-art">
+          <img src="assets/milkfrog-lol.webp" alt="奶蛙仰躺在地上，张大嘴哈哈大笑" width="496" height="360" loading="lazy">
+        </figure>
+        <ul class="mascot-traits">
+          <li>黄色光滑的梨形圆胖身，挺着奶白大肚皮。</li>
+          <li>大绿眼、黑瞳孔，手心和手背都是灰的，头上无角。</li>
+          <li>笑起来张大嘴，捧腹笑到躺地。</li>
+          <li>上工才拿出黄色电脑，敲几下就又笑了起来。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section shell" id="wall" aria-labelledby="wall-title">
+      <div class="section-header reveal">
+        <div class="section-heading">
+          <span class="section-number" aria-hidden="true">03</span>
+          <h2 id="wall-title">梗图墙 <span class="section-kicker" lang="en">The Wall</span></h2>
+        </div>
+        <p class="section-intro">三张图，三个场景。图存走，话留下：蛙哈哈。</p>
+      </div>
+      <div class="card-grid reveal">
+        <article class="grid-card">
+          <img class="wall-image" src="assets/meme-belly.webp" alt="奶蛙捧着奶白肚皮仰头大笑" width="1024" height="1024" loading="lazy">
+          <h3>倒霉蛙</h3>
+          <p>踩坑不丧，先笑为敬。</p>
+        </article>
+        <article class="grid-card">
+          <img class="wall-image" src="assets/meme-squint.webp" alt="奶蛙眯起眼睛张大嘴大笑特写" width="1024" height="1024" loading="lazy">
+          <h3>打工蛙</h3>
+          <p>活再难干，先笑为敬。</p>
+        </article>
+        <article class="grid-card">
+          <img class="wall-image" src="assets/meme-side.webp" alt="奶蛙侧脸绿眼大笑" width="1024" height="1024" loading="lazy">
+          <h3>看客蛙</h3>
+          <p>围观离谱事，不站队，先笑为敬。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="tokenomics" aria-labelledby="tokenomics-title">
+      <div class="section-header reveal">
+        <div class="section-heading">
+          <span class="section-number" aria-hidden="true">04</span>
+          <h2 id="tokenomics-title">代币经济 <span class="section-kicker" lang="en">Tokenomics</span></h2>
+        </div>
+        <p class="section-intro">WaHaHa MilkFrog（WAHA）的 Solana SPL 代币参数于 2026-11-18 定版。官网目前为测试网原型。</p>
+      </div>
+      <div class="reveal">
+        <div class="table-frame">
+          <table class="data-table" aria-label="WAHA 代币参数">
+            <thead>
+              <tr><th scope="col">项目</th><th scope="col">参数</th><th scope="col">状态</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">总量</th><td>100,000,000 WAHA</td><td><span class="draft-status">已定版</span></td></tr>
+              <tr><th scope="row">小数位</th><td>9 位</td><td><span class="draft-status">已定版</span></td></tr>
+              <tr><th scope="row">税</th><td>0</td><td><span class="draft-status">已定版</span></td></tr>
+              <tr>
+                <th scope="row">分配方案</th>
+                <td>88,880,000 WAHA 买卖（88.88%）<br>1,000,000 WAHA 创作者自留（1%）<br>10,120,000 WAHA 社区活动（10.12%）</td>
+                <td><span class="draft-status">主网未执行</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="section-note">Solana Devnet（测试网）发行演练 v2 已完成，铸造 100,000,000 WAHA。链上核验通过，增发权限已撤销，冻结权限从创建时即为空。测试币 mint <a class="devnet-mint" href="https://explorer.solana.com/address/GgTHU5JY8uRfWLV3E21dThBULYXNFaGrkzgPze39Udum?cluster=devnet" target="_blank" rel="noopener noreferrer">GgTHU5JY8uRfWLV3E21dThBULYXNFaGrkzgPze39Udum</a>。<strong>主网尚未发行，测试币无任何价值。</strong></p>
+        <p class="section-note">若决定发行主网版本，前置条件包括撤销增发权限、锁仓创作者自留份额并公开地址。</p>
+      </div>
+    </section>
+
+    <section class="section shell" id="verify" aria-labelledby="verify-title">
+      <div class="section-header reveal">
+        <div class="section-heading">
+          <span class="section-number" aria-hidden="true">05</span>
+          <h2 id="verify-title">怎么在链上核验 <span class="section-kicker" lang="en">On-chain Verification</span></h2>
+        </div>
+        <p class="section-intro">以下以 Solana 为例，说明拿到 mint 地址后怎么核验。WAHA 主网尚未发行。</p>
+      </div>
+      <ol class="card-grid verification-steps reveal">
+        <li class="grid-card step-card">
+          <h3>确认网络和 mint 地址</h3>
+          <p>在区块浏览器里选对网络，用项目公布的完整 mint 地址查询，再逐字核对地址。代币名称和代号可能重复。</p>
+        </li>
+        <li class="grid-card step-card">
+          <h3>查看总量和小数位</h3>
+          <p>在 mint 的详情里查看链上总量和小数位，与项目公开的参数逐一核对。</p>
+        </li>
+        <li class="grid-card step-card">
+          <h3>检查增发和冻结权限</h3>
+          <p>分别查看 Mint Authority（增发权限）和 Freeze Authority（冻结权限）。有地址就核对权限持有人，显示为空则该项权限已禁用。</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section shell" id="roadmap" aria-labelledby="roadmap-title">
+      <div class="section-header reveal">
+        <div class="section-heading">
+          <span class="section-number" aria-hidden="true">06</span>
+          <h2 id="roadmap-title">路线图 <span class="section-kicker" lang="en">Roadmap</span></h2>
+        </div>
+      </div>
+      <ol class="roadmap-list reveal">
+        <li class="roadmap-stage">
+          <div class="stage-label">阶段 1 <span class="badge current-badge">当前</span></div>
+          <div><h3>测试网原型</h3><p>制作静态官网，确定代币参数和链上核验方法。</p></div>
+        </li>
+        <li class="roadmap-stage">
+          <div class="stage-label">阶段 2</div>
+          <div><h3>社区内容</h3><p>围绕打工蛙、倒霉蛙、看客蛙，继续创作反应梗图。</p></div>
+        </li>
+        <li class="roadmap-stage">
+          <div class="stage-label">阶段 3</div>
+          <div><h3>由项目发起人决定是否推进主网</h3><p>由发起人审阅原型后另行决定。主网发行暂无安排。</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section shell" id="faq" aria-labelledby="faq-title">
+      <div class="section-header reveal">
+        <div class="section-heading">
+          <span class="section-number" aria-hidden="true">07</span>
+          <h2 id="faq-title">常见问题 <span class="section-kicker" lang="en">FAQ</span></h2>
+        </div>
+      </div>
+      <div class="faq-list reveal">
+        <details class="faq-item">
+          <summary>这是投资吗？</summary>
+          <p>不是，这是 meme 原型，没有收益承诺。</p>
+        </details>
+        <details class="faq-item">
+          <summary>WAHA 发行了吗？</summary>
+          <p>尚未发行。当前是测试网原型，未募资、不可购买。</p>
+        </details>
+        <details class="faq-item">
+          <summary>怎么用「蛙哈哈」这个梗？</summary>
+          <p>遇到离谱、倒霉或尴尬的瞬间，配一张奶蛙捧腹大笑图，加一句「蛙哈哈」。</p>
+        </details>
+        <details class="faq-item">
+          <summary>什么时候会上主网？</summary>
+          <p>暂无时间表。是否发行主网版本，由项目发起人审阅原型后另行决定。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section risk-section" id="risk" aria-labelledby="risk-title">
+      <div class="risk-inner shell reveal">
+        <div class="section-heading">
+          <span class="section-number" aria-hidden="true">08</span>
+          <h2 id="risk-title">风险声明 <span class="section-kicker" lang="en">Risk Disclosure</span></h2>
+        </div>
+        <div class="risk-copy">
+          <p><strong>测试网原型，尚未发行、未募资、不可购买。</strong></p>
+          <p>WAHA 的定位是 meme 币，无内在价值、无实用功能承诺、无收益承诺。若未来发行，价格可能归零。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <div class="site-footer-inner shell">
+      <p class="footer-risk"><a class="link" href="#risk">风险声明</a> · 测试网原型，尚未发行、未募资、不可购买。无收益承诺，若未来发行，价格可能归零。</p>
+      <div class="footer-meta">
+        <p>© <span id="year"></span> 蛙哈哈奶蛙 <span lang="en">WaHaHa MilkFrog</span></p>
+        <nav class="footer-nav" aria-label="页脚导航">
+          <a class="link" href="whitepaper.html">白皮书 <span aria-hidden="true">↗</span></a>
+          <a class="link" href="#hero">回到顶部 ↑</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
